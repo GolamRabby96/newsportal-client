@@ -1,0 +1,58 @@
+.loginMain{
+    height: 100vh;
+    background-image: url("./bb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-color: red; */
+}
+
+.formSection{
+    /* border: 2px solid rgba(139, 139, 139, 0.411); */
+    box-shadow: 0px 0px 31px #e6e6e65b;
+    border-radius: 8px;
+    background-color: #0000006b;
+    padding:20px;
+    color: white;
+}
+.formSection span{
+    cursor: pointer;
+    color:#00dc3e;
+}
+.OR{
+    
+    text-align: center;
+    padding:10px;
+    border-bottom: 1px solid #00dc3e;
+}
+.form-controlEdit{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #fff0;
+    background-clip: padding-box;
+    border-bottom: 1px solid #0fe950;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-controlEdit:focus {
+    color: #212529;
+    background-color: #ffffff69;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+.btn-edit {
+    color: #fff;
+    background-color: #0505067c;
+    border-color: #fcfcfc52;
+}
+.btn:hover {
+    color: #0fe950;
+}

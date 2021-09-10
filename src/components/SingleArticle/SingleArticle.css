@@ -1,0 +1,11 @@
+.imgDiv{
+    width:50%;
+    margin:auto;
+}
+.imgDiv img{
+    width:100%;
+    height:320px;
+}
+.textSection{
+    text-align:center;
+}
